@@ -1,0 +1,14 @@
+{
+   "student_to_teacher_layer":{
+      "0":8,
+      "1":9,
+      "2":10,
+      "3":11
+   },
+   "teacher_to_student_layer":{
+      "8":0,
+      "9":1,
+      "10":2,
+      "11":3
+   }
+}
