@@ -1,0 +1,8 @@
+arrow
+datasets
+#jupyter==1.0.0
+keras-preprocessing
+#pip-chill==1.0.1
+scikit-learn
+#torch==1.13.1
+transformers
