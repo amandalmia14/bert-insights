@@ -85,7 +85,7 @@ Scaled dot-product between values in the self-attention module as the new deep s
 It involves using the logits, which are the output of the final layer of both models before applying the softmax function. These logits are then scaled to a value known as temperature, which gauges the teacher probabilities and makes them more informative and less confident. The difference in the probability distribution of the teacher and student model is calculated in the form of loss, which is then propagated backward to update the model parameters.
 <details>
 <summary>Logit-based Loss</summary>
-     <img src="assets/logitloss.png" width="200"/>
+     <img src="assets/logitloss.png"/>
 </details>
 
 ## Hidden State Loss
