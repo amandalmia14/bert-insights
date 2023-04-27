@@ -92,14 +92,14 @@ It involves using the logits, which are the output of the final layer of both mo
 There are 12 hidden layers in the BERT-base model. Based on the student's configuration of layers, the loss of the selected hidden states of both models is calculated using Mean Square Error. The summation of all the layers of MSE Error is then propagated backward to update the model parameters.
 <details>
 <summary>Hidden State Loss</summary>
-<img src="assets/hidden.png" width="200"/>
+<img src="assets/hidden.png"/>
 </details>
 
 ## Embedding State Loss
 The first layer of BERT is the Encoding layer. The difference in the embedding layer representation of both the student and teacher models was calculated using MSE. The loss is then propagated backward to update the model parameters.
 <details>
 <summary>Embedding State Loss</summary>
-     <img src="assets/embedded.png" width="200"/>
+     <img src="assets/embedded.png"/>
 </details>
 
 ## Other Methods
@@ -120,28 +120,28 @@ The following are the four layers of the combination that were used during the a
 <summary>Configuration 1</summary>
      Every third layers of the teacher model (indexing from 0) i.e. {2,5,8,11}
      <br/> 
-     <img src="assets/config1.png" width="200"/>
+     <img src="assets/config1.png"/>
 </details>
 
 <details>
 <summary>Configuration 2</summary>
      Last 4 layers, i.e. {8,9,10,11}
      <br/> 
-     <img src="assets/config2.png" width="200"/>
+     <img src="assets/config2.png"/>
 </details>
 
 <details>
 <summary>Configuration 3</summary>
       Third, fifth and last two layers of the teacher model, i.e. {2,5,10,11}
       <br/> 
-     <img src="assets/config3.png" width="200"/>
+     <img src="assets/config3.png"/>
 </details>
 
 <details>
 <summary>Configuration 4</summary>
      First four layers of the teacher model, i.e. {0,1,2,3}
      <br/> 
-     <img src="assets/config4.png" width="200"/>
+     <img src="assets/config4.png"/>
 </details>
 
 
