@@ -67,7 +67,7 @@ Scaled dot-product between values in the self-attention module as the new deep s
 
 ## Setup Environment
 
-- Git clone the [repository](https://github.com/amandalmia14/hockey-primer-1)
+- Git clone the [repository](https://github.com/amandalmia14/bert-insights)
 - Make sure Python is installed on the system
 - Create a virtual environment / conda environment
 - Run `setup-dir.py` it will create the log directory
