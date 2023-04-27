@@ -48,7 +48,7 @@ def get_config_parser():
     optimization.add_argument(
         "--epochs",
         type=int,
-        default=5,
+        default=3,
         help="number of epochs for training (default: %(default)s).",
     )
     # optimization.add_argument(
