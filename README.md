@@ -11,11 +11,11 @@ Table of contents
 - [Table of contents](#table-of-contents)
 - [Introduction](#introduction)
 - [Literature Survey](#literature-survey)
-      - [DistiBERT](#distibert)
-      - [BERT-of-Theseus](#bert-of-theseus)
-      - [Patience Knowledge Distillation (PKD)-Last and Skip](#patience-knowledge-distillation-pkd-last-and-skip)
-      - [TinyBERT](#tinybert)
-      - [MiniLM](#minilm)
+  - [DistiBERT](#distibert)
+  - [BERT-of-Theseus](#bert-of-theseus)
+  - [Patience Knowledge Distillation (PKD)-Last and Skip](#patience-knowledge-distillation-pkd-last-and-skip)
+  - [TinyBERT](#tinybert)
+  - [MiniLM](#minilm)
 - [Installation](#installation)
   - [Setup Environment](#setup-environment)
   - [Install Dependencies](#install-dependencies)
@@ -37,23 +37,23 @@ To address this issue, several efficient deep learning techniques have been deve
 
 # Literature Survey
 
-#### DistiBERT
+## DistiBERT
 
 Pre-train setting on the task of masked language modeling (MLM). The loss is a combination of three components: the original MLM loss, cosine distance, and KL divergence. Distillation during pre-training phase.
 
-#### BERT-of-Theseus
+## BERT-of-Theseus
 
 Fine-tune a predecessor (teacher) model; new genre of model compression; freeze the teacher modules and train a hybrid model by randomly replacing some modules in the teacher model with successor (student) modules; Loss with the help of cross entropy;
 
-#### Patience Knowledge Distillation (PKD)-Last and Skip
+## Patience Knowledge Distillation (PKD)-Last and Skip
 
 Fine-tune a teacher model; model patiently learns from multiple intermediate layers of the teacher model for incremental knowledge extraction
 
-#### TinyBERT
+## TinyBERT
 
 Pre-training + Fine-tuning distillation;  Transformer-layer distillation consisting of attention based and hidden states based distillation.
 
-#### MiniLM
+## MiniLM
 
 Scaled dot-product between values in the self-attention module as the new deep self-attention knowledge; distilling the self-attention module of the last Transformer layer of the teacher, which is effective and flexible for the student
 
